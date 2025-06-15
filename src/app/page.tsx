@@ -3,6 +3,7 @@ import ContactSection from "./components/ContactSection";
 import Footer from "./components/Footer";
 import Header from "./components/Header";
 import HeroSection from "./components/HeroSection";
+import InstagramCarousel from "./components/InstagramCarousel";
 import LookbookGallery from "./components/LookbookGallery";
 
 export default function Home() {
@@ -11,6 +12,7 @@ export default function Home() {
       <Header />
       <HeroSection />
       <LookbookGallery />
+      <InstagramCarousel />
       <AboutSection />
       <ContactSection />
       <Footer />
