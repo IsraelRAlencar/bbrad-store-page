@@ -1,6 +1,10 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
+import { TooltipProvider } from "@radix-ui/react-tooltip";
+import { Toaster } from "./components/ui/Toaster";
+import { Toaster as Sonner  } from "./components/ui/Sonner";
+import QueryProvider from "./components/QueryProvider";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -25,7 +29,13 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`${geistSans.variable} ${geistMono.variable}`}>
-        {children}
+          <QueryProvider>
+            <TooltipProvider>
+              <Toaster />
+              <Sonner />
+                {children}
+            </TooltipProvider>
+          </QueryProvider>
       </body>
     </html>
   );
