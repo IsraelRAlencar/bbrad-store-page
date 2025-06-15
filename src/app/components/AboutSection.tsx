@@ -4,18 +4,18 @@ export default function AboutSection() {
   return (
     <section id="about" className="py-20 bg-white">
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="text-center mb-16">
+        <div className="text-center mb-8">
           <h2 className="text-3xl lg:text-4xl font-light text-brand-primary mb-6">
             Sobre a B. Brand
           </h2>
-          <div className="w-16 h-px bg-brand-primary mx-auto mb-8"></div>
+          <div className="w-8 h-px bg-brand-primary mx-auto mb-8"></div>
           <p className="text-xl text-brand-primary/80 leading-relaxed">
             Uma marca que nasceu da paixão por criar peças atemporais 
             e elegantes para mulheres contemporâneas.
           </p>
         </div>
 
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center mb-20">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center mb-20">
           <div>
             <h3 className="text-2xl font-light text-brand-primary mb-6">
               Nossa História
@@ -45,7 +45,7 @@ export default function AboutSection() {
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-12">
           <div className="text-center">
-            <div className="w-16 h-16 bg-brand-primary/10 rounded-full flex items-center justify-center mx-auto mb-6">
+            <div className="w-8 h-8 bg-brand-primary/10 rounded-full flex items-center justify-center mx-auto mb-6">
               <div className="w-8 h-8 bg-brand-primary rounded-full"></div>
             </div>
             <h4 className="text-xl font-medium text-brand-primary mb-4">
@@ -58,7 +58,7 @@ export default function AboutSection() {
           </div>
           
           <div className="text-center">
-            <div className="w-16 h-16 bg-brand-primary/10 rounded-full flex items-center justify-center mx-auto mb-6">
+            <div className="w-8 h-8 bg-brand-primary/10 rounded-full flex items-center justify-center mx-auto mb-6">
               <div className="w-8 h-8 bg-brand-primary rounded-full"></div>
             </div>
             <h4 className="text-xl font-medium text-brand-primary mb-4">
@@ -71,7 +71,7 @@ export default function AboutSection() {
           </div>
           
           <div className="text-center">
-            <div className="w-16 h-16 bg-brand-primary/10 rounded-full flex items-center justify-center mx-auto mb-6">
+            <div className="w-8 h-8 bg-brand-primary/10 rounded-full flex items-center justify-center mx-auto mb-6">
               <div className="w-8 h-8 bg-brand-primary rounded-full"></div>
             </div>
             <h4 className="text-xl font-medium text-brand-primary mb-4">

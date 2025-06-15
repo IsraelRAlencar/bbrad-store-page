@@ -48,7 +48,7 @@ export default function HeroSection() {
 
         {/* Scroll Indicator */}
         <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 animate-bounce">
-          <div className="w-px h-16 bg-brand-primary/30"></div>
+          <div className="w-px h-8 bg-brand-primary/30"></div>
           <div className="w-2 h-2 bg-brand-primary rounded-full mx-auto mt-2"></div>
         </div>
       </div>

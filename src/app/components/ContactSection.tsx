@@ -5,17 +5,17 @@ export default function ContactSection() {
   return (
     <section id="contact" className="py-20 bg-brand-secondary/30">
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="text-center mb-16">
+        <div className="text-center mb-8">
           <h2 className="text-3xl lg:text-4xl font-light text-brand-primary mb-6">
             Conecte-se Conosco
           </h2>
-          <div className="w-16 h-px bg-brand-primary mx-auto mb-8"></div>
+          <div className="w-8 h-px bg-brand-primary mx-auto mb-8"></div>
           <p className="text-lg text-brand-primary/80 leading-relaxed">
             Acompanhe nossa jornada e descubra mais sobre o universo B. Brand.
           </p>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-12 mb-16">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-12 mb-8">
           <div>
             <h3 className="text-xl font-medium text-brand-primary mb-6">
               Informações de Contato

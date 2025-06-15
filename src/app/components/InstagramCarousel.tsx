@@ -23,7 +23,7 @@ export default function InstagramCarousel() {
     },
     {
       id: 3,
-      image: "https://images.unsplash.com/photo-1494790108755-2616c7c8371d?auto=format&fit=crop&w=800&q=80",
+      image: "https://images.unsplash.com/photo-1494790108755-268c7c8371d?auto=format&fit=crop&w=800&q=80",
       caption: "Elegância atemporal em cada detalhe 💫",
       likes: 312,
       date: "2024-06-05"
@@ -68,7 +68,7 @@ export default function InstagramCarousel() {
           <h2 className="text-3xl lg:text-4xl font-light text-brand-primary mb-6">
             @_bbrandstore
           </h2>
-          <div className="w-16 h-px bg-brand-primary mx-auto mb-6"></div>
+          <div className="w-8 h-px bg-brand-primary mx-auto mb-6"></div>
           <p className="text-lg text-brand-primary/70 mb-8">
             Acompanhe nossos últimos looks no Instagram
           </p>
