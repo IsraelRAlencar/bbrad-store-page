@@ -55,7 +55,7 @@ export default function Header() {
               <button
                 key={item.name}
                 onClick={() => scrollToSection(item.id)}
-                className="text-sm font-medium transition-colors duration-200 hover:text-brand-primary/70 text-brand-primary/80"
+                className="text-sm font-medium transition-colors duration-200 hover:text-white text-brand-primary/80"
               >
                 {item.name}
               </button>
@@ -73,7 +73,7 @@ export default function Header() {
               <Instagram className="h-5 w-5 text-brand-primary" />
             </a>
             <a 
-              href="https://wa.me/5511999999999" 
+              href="https://wa.me/556792430339" 
               target="_blank" 
               rel="noopener noreferrer"
               className="p-2 hover:bg-brand-secondary rounded-full transition-colors"

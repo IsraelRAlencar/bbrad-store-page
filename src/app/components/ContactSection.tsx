@@ -1,16 +1,18 @@
 import { Instagram, Mail, MapPin, MessageCircle } from 'lucide-react';
 import React from 'react'
+import ContactButton from './ContactButton';
+import InstagramButton from './InstagramButton';
 
 export default function ContactSection() {
   return (
     <section id="contact" className="py-20 bg-brand-secondary/30">
-      <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div className="max-w-xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-8">
           <h2 className="text-3xl lg:text-4xl font-light text-brand-primary mb-6">
             Conecte-se Conosco
           </h2>
           <div className="w-8 h-px bg-brand-primary mx-auto mb-8"></div>
-          <p className="text-lg text-brand-primary/80 leading-relaxed">
+          <p className="text-md text-brand-primary/80 leading-relaxed">
             Acompanhe nossa jornada e descubra mais sobre o universo B. Brand.
           </p>
         </div>
@@ -32,27 +34,17 @@ export default function ContactSection() {
             </div>
           </div>
 
-          <div>
+          <div className='mx-auto'>
             <h3 className="text-xl font-medium text-brand-primary mb-6">
               Redes Sociais
             </h3>
             <div className="space-y-4">
-              <a 
-                href="https://instagram.com/_bbrandstore" 
-                target="_blank" 
-                rel="noopener noreferrer"
-                className="flex items-center space-x-3 text-brand-primary/80 hover:text-brand-primary transition-colors group"
-              >
+              <a href="https://instagram.com/_bbrandstore" target="_blank" rel="noopener noreferrer"className="flex items-center space-x-3 text-brand-primary/80 hover:text-brand-primary transition-colors group">
                 <Instagram className="h-5 w-5 group-hover:scale-110 transition-transform" />
                 <span>@_bbrandstore</span>
               </a>
               
-              <a 
-                href="https://wa.me/5511999999999" 
-                target="_blank" 
-                rel="noopener noreferrer"
-                className="flex items-center space-x-3 text-brand-primary/80 hover:text-brand-primary transition-colors group"
-              >
+              <a href="https://wa.me/556792430339" target="_blank" rel="noopener noreferrer"className="flex items-center space-x-3 text-brand-primary/80 hover:text-brand-primary transition-colors group">
                 <MessageCircle className="h-5 w-5 group-hover:scale-110 transition-transform" />
                 <span>WhatsApp</span>
               </a>
@@ -62,25 +54,8 @@ export default function ContactSection() {
 
         <div className="text-center">
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <a
-              href="https://instagram.com/_bbrandstore"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="inline-flex items-center space-x-3 bg-brand-primary text-white px-8 py-4 font-medium hover:bg-brand-primary/90 transition-all duration-300 hover:shadow-lg group"
-            >
-              <Instagram className="h-5 w-5 group-hover:scale-110 transition-transform" />
-              <span>@_bbrandstore</span>
-            </a>
-            
-            <a
-              href="https://wa.me/5511999999999"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="inline-flex items-center space-x-3 border-2 border-brand-primary text-brand-primary px-8 py-4 font-medium hover:bg-brand-primary hover:text-white transition-all duration-300 group"
-            >
-              <MessageCircle className="h-5 w-5 group-hover:scale-110 transition-transform" />
-              <span>Fale Conosco</span>
-            </a>
+            <InstagramButton />
+            <ContactButton />
           </div>
         </div>
       </div>

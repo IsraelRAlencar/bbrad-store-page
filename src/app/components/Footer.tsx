@@ -59,7 +59,7 @@ export default function Footer() {
               </a>
               
               <a 
-                href="https://wa.me/5511999999999" 
+                href="https://wa.me/556792430339" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="flex items-center space-x-3 text-white/80 hover:text-white transition-colors group"
@@ -89,7 +89,7 @@ export default function Footer() {
         {/* Bottom */}
         <div className="border-t border-white/20 mt-12 pt-8 text-center">
           <p className="text-white/60 text-sm">
-            © 2024 B. Brand Store. Todos os direitos reservados.
+            © 2024 B. Brand Store. Todos os direitos reservados. | Feito por <a href="https://www.israelalencar.com" target="_blank" rel="noopener noreferrer" className="text-white/80 hover:text-white transition-colors">Israel Alencar Dev</a>
           </p>
         </div>
       </div>

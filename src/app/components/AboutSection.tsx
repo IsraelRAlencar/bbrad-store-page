@@ -35,7 +35,7 @@ export default function AboutSection() {
           </div>
           <div className="relative">
             <img
-              src="https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?auto=format&fit=crop&w=800&q=80"
+              src="/images/sobre_nos.jpg"
               alt="B. Brand Story"
               className="w-full aspect-[4/5] object-cover"
             />
